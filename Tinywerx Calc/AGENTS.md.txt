@@ -1,0 +1,20 @@
+# Tinywerx calc Project Config
+
+## Component Library
+- Use Shadcn/UI only (via CDN)
+- Tailwind CSS for all styling
+- No custom CSS files
+
+## Deployment
+- Auto-deploy to Vercel on every save
+- GitHub auto-sync enabled
+- Live URL: https://dad-easy-my-first-app.vercel.app
+
+## Performance Budget
+- Max bundle size: 50KB gzipped
+- Max NPM packages: 3
+- Max API calls: 20/minute
+
+## File Watching
+- Watch: /src, /public, /index.html
+- Ignore: /node_modules, /.vercel, /dist

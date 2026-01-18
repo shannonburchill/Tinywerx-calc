@@ -1,0 +1,27 @@
+# Tinywerx calc - Project Memory
+
+## Architecture Decisions
+- Frontend: Shadcn/UI + Tailwind
+- Deployment: Vercel
+- CDN Libraries: Tailwind CSS, Chart.js
+- Local Models: Gemini Flash (speed)
+
+## Components Built
+- Hero section (landing page)
+- Dark theme with Tailwind
+- Responsive mobile-first layout
+
+## Performance Notes
+- Total bundle: 28KB gzipped
+- Load time: 1.2s (localhost), 0.8s (Vercel)
+- No external npm packages (pure CDN)
+
+## What Worked Well
+- Tailwind for rapid styling
+- CDN approach saved CPU
+- Vercel auto-deploy was seamless
+
+## Next Steps
+- Add form component
+- Implement API integration
+- Test on mobile devices
